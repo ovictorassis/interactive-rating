@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Alt text](./images/screenshot-1.jpg)
+![Alt text](./images/screenshot-2.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://ovictorassis.github.io/interactive-rating-component/)
+- Live Site URL: [Live Site](https://ovictorassis.github.io/interactive-rating/)
 
 ### Built with
 
