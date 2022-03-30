@@ -18,16 +18,11 @@
   
   .container {
     width: 100vw;
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    padding: 15px;
+    margin-top: 200px;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   
   .container .card {
@@ -38,57 +33,41 @@
     padding: 2.5rem;
   }
   
-  .container .card .star {
+  .star {
     background-color: rgba(124, 135, 152, 0.2);
     width: 4rem;
     height: 4rem;
     padding: 1.2rem;
     border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   
-  .container .card .star img {
-    width: 1.4rem;
+  .star img {
+    width: 1.5rem;
   }
   
-  .container .card .title {
+  .title {
     font-size: 2.4rem;
     color: white;
     margin-top: 1.9rem;
   }
   
-  .container .card p {
+ .card p {
     color: #959eac;
     font-size: 1.415rem;
     line-height: 2.2rem;
     margin-top: 1.2rem;
   }
   
-  .container .card .rating {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  .rating {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
   }
   
-  .container .card .rating .rating-button {
+  .rating-button {
     color: #959eac;
     font-size: 1.4rem;
     font-weight: 700;
@@ -96,33 +75,23 @@
     width: 4.1rem;
     height: 4.1rem;
     border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     margin-top: 2.6rem;
   }
   
   
-  .container .card .rating .rating-button:hover {
+  .rating-button:hover {
     background-color: #fb7413;
     cursor: pointer;
+    color: white;
   }  
 
-  .container .card .rating .active {
+ .rating .active {
     background-color: #959eac;
-  }
-  
-  .container .card .rating .active div {
     color: white;
   }
-  
- 
   
   .submit-button {
     background-color: #fb7413;
@@ -145,32 +114,23 @@
     font-weight: 700;
   }
   
-
-
-  .container .card .card-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  .card-2 {
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   
-  .container .card .card-2 img {
+.card-2 img {
     width: 14.5rem;
     margin-top: 1rem;
   }
   
-  .container .card .card-2 p {
+  .card-2 p {
     text-align: center;
     margin-bottom: 1.5rem;
   }
   
-  .container .card .card-2 .result {
+  .card-2 .result {
     background-color: rgba(124, 135, 152, 0.2);
     padding: 0.8rem 1.4rem;
     border-radius: 2rem;
@@ -180,11 +140,11 @@
     font-size: 1.4rem;
   }
   
-  .container .card .hide {
+  .card .hide {
     display: none;
   }
   
-footer {
+.footer {
     text-align: center;
     font-size: 15px;
     color: white;
@@ -207,18 +167,18 @@ footer {
       margin-top: 3.4rem;
       font-size: 2.77rem;
     }
-    .container .card .text {
+    .container .card p {
       margin-top: 0.9rem;
       line-height: 2.4rem;
       font-size: 1.505rem;
     }
-    .container .card .rating-wrapper .rating-btn {
+    .container .card .rating .rating-button {
       width: 5.1rem;
       height: 5.1rem;
       font-size: 1.6rem;
     }
    
-    .container .card .submit-btn {
+    .container .card .submit-button {
       margin-top: 3.2rem;
     }
   }
